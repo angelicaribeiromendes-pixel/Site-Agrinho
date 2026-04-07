@@ -8,3 +8,106 @@
   <!--Permite usar acentos e caracter especiais -->
   <meta name="viewport" content="width=devidece-wih, initial-scal=1.0">
   <!-- Faz o site se adaptar a celulares (responsividade) -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroForte | Futuro Sustentável</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="header">
+        <nav class="navbar container">
+            <div class="logo">
+                <i class="bi bi-leaf-fill"></i> Agro<span>Forte</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                <li><a href="#tecnologia">Tecnologia</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="bi bi-list"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-content">
+                <h1>O Equilíbrio entre a <br><span>Colheita e a Natureza</span></h1>
+                <p>Unindo alta produtividade agrícola com preservação ambiental através de tecnologia de ponta.</p>
+                <div class="hero-btns">
+                    <a href="#sustentabilidade" class="btn-primary">Saiba Mais</a>
+                    <button id="counter-trigger" class="btn-secondary">Impacto Verde</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="tecnologia" class="pillars container">
+            <div class="section-title">
+                <h2>Nossos Pilares</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="grid-pillars">
+                <div class="card">
+                    <i class="bi bi-speedometer2"></i>
+                    <h3>Produção Eficiente</h3>
+                    <p>Maximização de resultados com o menor uso de solo possível.</p>
+                </div>
+                <div class="card">
+                    <i class="bi bi-droplet-half"></i>
+                    <h3>Preservação</h3>
+                    <p>Gestão inteligente de recursos hídricos e recuperação de matas.</p>
+                </div>
+                <div class="card">
+                    <i class="bi bi-cpu"></i>
+                    <h3>Tecnologia Verde</h3>
+                    <p>Monitoramento via satélite e drones para redução de insumos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="sustentabilidade" class="content-info">
+            <div class="container grid-content">
+                <div class="text-area">
+                    <h2>Inovação para alimentar o mundo</h2>
+                    <p>A AgroForte acredita que a tecnologia é a ponte para um agronegócio regenerativo. Implementamos sistemas que reduzem a pegada de carbono enquanto elevam os padrões de qualidade do produto final.</p>
+                    <div class="impact-counter" id="impact-section">
+                        <span id="tree-counter">0</span>
+                        <p>Árvores preservadas este ano</p>
+                    </div>
+                </div>
+                <div class="image-area">
+                    <img src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?auto=format&fit=crop&q=80&w=800" alt="Agricultura Sustentável">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <div class="logo white">Agro<span>Forte</span></div>
+                <p>Tecnologia a serviço da vida.</p>
+            </div>
+            <div class="footer-social">
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+                <a href="#"><i class="bi bi-youtube"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 AgroForte - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
